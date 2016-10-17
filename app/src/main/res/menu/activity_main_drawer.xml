@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/new_customer"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="New Customer" />
+        <item
+            android:id="@+id/new_purchase"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="New Purchase" />
+        <item
+            android:id="@+id/customer_list"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Customer List" />
+        <item
+            android:id="@+id/purchase_list"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Purchase List" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/stock_update"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Stock" />
+            <item
+                android:id="@+id/amount_table"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Amount Table" />
+        </menu>
+    </item>
+
+</menu>
